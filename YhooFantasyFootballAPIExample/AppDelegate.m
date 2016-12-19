@@ -27,8 +27,8 @@
     // create session with consumer key, secret and application id
     // set up a new app here: https://developer.yahoo.com/dashboard/createKey.html
     // because the default values here won't work
-    self.session = [YOSSession sessionWithConsumerKey:@"dj0yJmk9Q0pXczRLa2hWZUhjJmQ9WVdrOVEyVTNXamN3Tm5NbWNHbzlNVFUwTlRFNE5qVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--"
-                                    andConsumerSecret:@"02893ec94b1a60fae1c707e0ae35bc588bb0363c"
+    self.session = [YOSSession sessionWithConsumerKey:@""
+                                    andConsumerSecret:@""
                                      andApplicationId:nil];
     
     
