@@ -21,8 +21,8 @@
 /*
 -(void) viewDidAppear
 {
-    self.session = [YOSSession sessionWithConsumerKey:@"dj0yJmk9Q0pXczRLa2hWZUhjJmQ9WVdrOVEyVTNXamN3Tm5NbWNHbzlNVFUwTlRFNE5qVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--"
-                                    andConsumerSecret:@"02893ec94b1a60fae1c707e0ae35bc588bb0363c"
+    self.session = [YOSSession sessionWithConsumerKey:@""
+                                    andConsumerSecret:@""
                                      andApplicationId:nil];
     
     BOOL hasSession = [self.session resumeSession];
@@ -44,8 +44,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.session = [YOSSession sessionWithConsumerKey:@"dj0yJmk9Q0pXczRLa2hWZUhjJmQ9WVdrOVEyVTNXamN3Tm5NbWNHbzlNVFUwTlRFNE5qVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--"
-                                    andConsumerSecret:@"02893ec94b1a60fae1c707e0ae35bc588bb0363c"
+    self.session = [YOSSession sessionWithConsumerKey:@""
+                                    andConsumerSecret:@""
                                      andApplicationId:nil];
 
     BOOL hasSession = [self.session resumeSession];
@@ -77,8 +77,8 @@
 }
 - (IBAction)runOAuth:(id)sender {
     
-    self.session = [YOSSession sessionWithConsumerKey:@"dj0yJmk9Q0pXczRLa2hWZUhjJmQ9WVdrOVEyVTNXamN3Tm5NbWNHbzlNVFUwTlRFNE5qVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--"
-                                    andConsumerSecret:@"02893ec94b1a60fae1c707e0ae35bc588bb0363c"
+    self.session = [YOSSession sessionWithConsumerKey:@""
+                                    andConsumerSecret:@""
                                      andApplicationId:nil];
     
      BOOL hasSession = [self.session resumeSession];
@@ -102,9 +102,9 @@
 
 {
     
-    self.session = [YOSSession sessionWithConsumerKey:@"dj0yJmk9Q0pXczRLa2hWZUhjJmQ9WVdrOVEyVTNXamN3Tm5NbWNHbzlNVFUwTlRFNE5qVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--"
+    self.session = [YOSSession sessionWithConsumerKey:@""
                     
-                                    andConsumerSecret:@"02893ec94b1a60fae1c707e0ae35bc588bb0363c"
+                                    andConsumerSecret:@""
                     
                                      andApplicationId:nil];
     
